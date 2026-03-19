@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOHANAKANNAN S — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="spb"></div>
+<div class="cursor-dot" data-cursor-dot></div>
+<div class="cursor-outline" data-cursor-outline></div>
+<canvas id="pc"></canvas>
+
+<nav id="mainNav">
+  <a href="#hero" class="nav-logo">MOHANAKANNAN S</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#domains">Domains</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-tag ax from-left s1">B.E. Student · EEE · Karpagam Institute of Technology</div>
+        <h1 class="hero-name ax from-blur s2">MOHANA<br><span class="yl">KANNAN</span><br>S</h1>
+        <div class="domain-ticker ax s3">
+          <span class="d-prefix">ASPIRING →</span>
+          <div class="d-slot"><div class="d-word" id="dWord">Frontend Developer</div></div>
+        </div>
+        <p class="hero-summary ax s4">A passionate first-year B.E. (EEE) student driven by a deep love for the IT sector. I build browser games, portfolio websites, and AI-powered platforms — turning ideas into real, deployed products with clean code and creative thinking.</p>
+        <div class="hero-btns ax s5">
+          <a href="#projects" class="btn-p">View Projects</a>
+          <a href="#contact" class="btn-o">Contact Me</a>
+        </div>
+        <div class="hero-contacts ax s6">
+          <a href="mailto:mohansampath098@gmail.com" class="c-chip"><span class="ic">✉</span> mohansampath098@gmail.com</a>
+          <a href="tel:7904987242" class="c-chip"><span class="ic">📞</span> +91 79049 87242</a>
+          <a href="https://linkedin.com/in/mohanakannan098" target="_blank" class="c-chip"><span class="ic">💼</span> linkedin.com/in/mohanakannan098</a>
+          <a href="https://github.com/mohansampath098-ai" target="_blank" class="c-chip"><span class="ic">🐙</span> github.com/mohansampath098-ai</a>
+          <span class="c-chip"><span class="ic">📍</span> Coimbatore, Tamil Nadu</span>
+        </div>
+      </div>
+      <div class="profile-card ax from-right s2">
+        <div class="p-frame">
+          <div class="p-slot">
+            <img id="myPhoto" src="pic.jpeg" alt="Mohanakannan S">
+            <div id="fallback" style="display:none"><div class="avatar-ring">👤</div><div class="slot-lbl">Click to Upload<br>Your Photo</div></div>
+          </div>
+          <input type="file" id="profInput" accept="image/*" style="display: none;">
+        </div>
+        <div class="info-strip">
+          <div class="i-row"><span class="k">DOB</span><span class="v">08 / 10 / 2007</span></div>
+          <div class="i-row"><span class="k">LANG</span><span class="v">English · Tamil</span></div>
+          <div class="i-row"><span class="k">CGPA</span><span class="v">8.0</span></div>
+          <div class="i-row"><span class="k">YEAR</span><span class="v">1st Year B.E.</span></div>
+          <div class="i-row"><span class="k">CLUB</span><span class="v">Amazon Web Services[AWS] Club</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-line"></div>
+
+<!-- ABOUT -->
+<section id="about" class="sec-line">
+  <div class="wrap">
+    <div class="ax"><div class="sec-label">01 — About Me</div><h2 class="sec-title">WHO I <span>AM</span></h2></div>
+    <div class="about-grid">
+      <div class="about-text ax from-left s1">
+        <p>I am Mohanakannan S, a first-year B.E. student in Electrical and Electronics Engineering at Karpagam Institute of Technology, Coimbatore. Despite being an EEE student, my passion lies firmly in the IT sector.</p>
+        <p>My goal is to become a skilled professional in IT domains — contributing to meaningful projects and solving real-world problems through technology. I actively pursue certifications, participate in hackathons, and build real deployed projects.</p>
+        <p>I am an active member of the AWS Club and continuously growing my skills in cloud technologies, programming, and AI-powered tools.</p>
+      </div>
+      <div class="stats">
+        <div class="stat ax from-zoom s1"><div class="stat-n" data-count="3">0</div><div class="stat-l">Live Projects</div></div>
+        <div class="stat ax from-zoom s2"><div class="stat-n" data-count="14">0</div><div class="stat-l">Certifications</div></div>
+        <div class="stat ax from-zoom s3"><div class="stat-n">8.0</div><div class="stat-l">CGPA</div></div>
+        <div class="stat ax from-zoom s4"><div class="stat-n">1st</div><div class="stat-l">Year B.E.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-line"></div>
+
+<!-- EDUCATION -->
+<section id="education" class="sec-line">
+  <div class="wrap">
+    <div class="ax"><div class="sec-label">02 — Education</div><h2 class="sec-title">MY <span>BACKGROUND</span></h2></div>
+    <div class="edu-card ax from-zoom s1" id="eduCard">
+      <div class="edu-yr">2K27</div>
+      <div>
+        <div class="edu-deg">Bachelor of Engineering</div>
+        <div class="edu-dept">Electrical & Electronics Engineering (EEE)</div>
+        <div class="edu-col">Karpagam Institute of Technology, Coimbatore</div>
+        <div class="cgpa-bar"><span class="cgpa-lbl">CGPA</span><div class="cgpa-track"><div class="cgpa-fill" id="cgpaFill"></div></div><span class="cgpa-val">8.0</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-line"></div>
+
+<!-- SKILLS -->
+<section id="skills" class="sec-line">
+  <div class="wrap">
+    <div class="ax"><div class="sec-label">03 — Skills</div><h2 class="sec-title">WHAT I <span>KNOW</span></h2></div>
+    <div class="skills-grid">
+      <div class="sk-cat ax from-flip s1"><div class="sk-title">◈ Languages</div><div class="tags"><span class="tag">C</span><span class="tag">C++</span><span class="tag">Python</span><span class="tag">DSA in C</span></div></div>
+      <div class="sk-cat ax from-flip s2"><div class="sk-title">◈ Web Technologies</div><div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span></div></div>
+      <div class="sk-cat ax from-flip s3"><div class="sk-title">◈ Tools & Platforms</div><div class="tags"><span class="tag">VS Code</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">AWS</span><span class="tag">Claude AI</span><span class="tag">ChatGPT</span></div></div>
+      <div class="sk-cat ax from-flip s4"><div class="sk-title">◈ Soft Skills</div><div class="tags"><span class="tag">Leadership</span><span class="tag">Communication</span><span class="tag">Time Management</span></div></div>
+      <div class="sk-cat ax from-flip s5"><div class="sk-title">◈ Deployment</div><div class="tags"><span class="tag">GitHub Pages</span><span class="tag">Responsive Design</span></div></div>
+      <div class="sk-cat ax from-flip s6"><div class="sk-title">◈ Interests</div><div class="tags"><span class="tag">Web Dev</span><span class="tag">AI Tools</span><span class="tag">Cloud</span><span class="tag">Networking</span></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-line"></div>
+
+<!-- DOMAINS -->
+<section id="domains" class="sec-line">
+  <div class="wrap">
+    <div class="ax"><div class="sec-label">04 — IT Domains</div><h2 class="sec-title">MY <span>DOMAINS</span></h2></div>
+    <div class="domains-grid">
+      <div class="dom-card ax from-zoom s1"><div class="dom-num">01</div><div class="dom-name">Frontend / Web Development</div></div>
+      <div class="dom-card ax from-zoom s2"><div class="dom-num">02</div><div class="dom-name">AI & Machine Learning</div></div>
+      <div class="dom-card ax from-zoom s3"><div class="dom-num">03</div><div class="dom-name">Cloud Computing</div></div>
+      <div class="dom-card ax from-zoom s4"><div class="dom-num">04</div><div class="dom-name">Full Stack Development</div></div>
+      <div class="dom-card ax from-zoom s5"><div class="dom-num">05</div><div class="dom-name">Data Science & Analytics</div></div>
+      <div class="dom-card ax from-zoom s1"><div class="dom-num">06</div><div class="dom-name">Cybersecurity & Networking</div></div>
+      <div class="dom-card ax from-zoom s2"><div class="dom-num">07</div><div class="dom-name">DevOps & Automation</div></div>
+      <div class="dom-card ax from-zoom s3"><div class="dom-num">08</div><div class="dom-name">Game Development</div></div>
+      <div class="dom-card ax from-zoom s4"><div class="dom-num">09</div><div class="dom-name">Prompt Engineering</div></div>
+      <div class="dom-card ax from-zoom s5"><div class="dom-num">10</div><div class="dom-name">IT Support & Sysadmin</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-line"></div>
+
+<!-- PROJECTS -->
+<section id="projects" class="sec-line">
+  <div class="wrap">
+    <div class="ax"><div class="sec-label">05 — Projects</div><h2 class="sec-title">WHAT I'VE <span>BUILT</span></h2></div>
+    <div class="proj-grid">
+      <div class="proj-card ax from-left s1">
+        <div class="proj-num">01</div>
+        <div class="proj-title">Animal Jump Adventure</div>
+        <p class="proj-desc">A browser-based endless jumping game where players control animated animals to survive obstacles. Features jump physics, a full scoring system, collision detection, and increasing difficulty.</p>
+        <div class="proj-tech"><span class="pchip">HTML5</span><span class="pchip">CSS3</span><span class="pchip">JavaScript</span><span class="pchip">GitHub Pages</span></div>
+        <a href="https://mohansampath098-ai.github.io/jumping-game-using-animals-new" target="_blank" class="proj-link">Live Demo →</a>
+      </div>
+      <div class="proj-card ax s2">
+        <div class="proj-num">02</div>
+        <div class="proj-title">Personal Developer Portfolio</div>
+        <p class="proj-desc">A modern responsive portfolio website to showcase skills, projects, and achievements. Responsive on all devices with smooth animations, clean UI/UX design, and deployed on GitHub Pages.</p>
+        <div class="proj-tech"><span class="pchip">HTML5</span><span class="pchip">CSS3</span><span class="pchip">JavaScript</span><span class="pchip">GitHub Pages</span></div>
+        <a href="https://eniyavan2004.github.io/porfolio2/" target="_blank" class="proj-link">Live Demo →</a>
+      </div>
+      <div class="proj-card ax from-right s3">
+        <div class="proj-num">03</div>
+        <div class="proj-title">AI Career Navigator</div>
+        <p class="proj-desc">An intelligent web platform helping students choose the right career path. Generates personalized roadmaps, identifies skill gaps, and provides step-by-step guidance — built for an ideathon.</p>
+        <div class="proj-tech"><span class="pchip">HTML5</span><span class="pchip">CSS3</span><span class="pchip">JavaScript</span><span class="pchip">AI Logic</span></div>
+        <a href="#projects" class="proj-link">Ideathon Project →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-line"></div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="sec-line">
+  <div class="wrap">
+    <div class="ax"><div class="sec-label">06 — Certifications</div><h2 class="sec-title">14 <span>CREDENTIALS</span></h2></div>
+    <div class="certs-grid">
+      <!-- 14 cert cards generated below -->
+    </div>
+  </div>
+</section>
+
+<div class="glow-line"></div>
+
+<!-- STRENGTHS -->
+<section id="strengths" class="sec-line">
+  <div class="wrap">
+    <div class="ax"><div class="sec-label">07 — Strengths</div><h2 class="sec-title">BEYOND THE <span>CODE</span></h2></div>
+    <div class="str-grid">
+      <div class="str-card ax from-rot s1"><div class="str-ic">⚡</div><div class="str-title">Technical Skills</div><div class="str-desc">Strong foundation in programming, web development, and modern AI tools.</div></div>
+      <div class="str-card ax from-rot s2"><div class="str-ic">🎯</div><div class="str-title">Leadership</div><div class="str-desc">AWS Club member. Takes initiative and guides peers through challenges.</div></div>
+      <div class="str-card ax from-rot s3"><div class="str-ic">🗣️</div><div class="str-title">Communication</div><div class="str-desc">Fluent in English & Tamil. Clear in both academic and professional contexts.</div></div>
+      <div class="str-card ax from-rot s4"><div class="str-ic">⏱️</div><div class="str-title">Time Management</div><div class="str-desc">Balances studies, projects, certifications, and club activities with ease.</div></div>
+      <div class="str-card ax from-rot s5"><div class="str-ic">☁️</div><div class="str-title">AWS Club</div><div class="str-desc">Active member exploring cloud technologies, AWS services, and workshops.</div></div>
+      <div class="str-card ax from-rot s6"><div class="str-ic">🌐</div><div class="str-title">Web Development</div><div class="str-desc">Builds real, deployed web apps — from browser games to AI-powered platforms.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<div id="contact">
+  <div class="wrap">
+    <div class="contact-inner">
+      <div class="ax from-left s1">
+        <div class="sec-label">08 — Contact</div>
+        <h2 class="sec-title" style="margin-bottom:14px;">LET'S <span>CONNECT</span></h2>
+        <p style="font-size:15px;color:#444;line-height:1.8;max-width:360px;font-family:'Share Tech Mono',monospace;">Open to internships, collaborations, and IT opportunities. Reach out — I'm always excited to work on something impactful.</p>
+      </div>
+      <div class="c-links ax from-right s1">
+        <a href="mailto:mohansampath098@gmail.com" class="c-row"><span class="c-row-ic">✉️</span><div><div class="c-row-lbl">Email</div><div class="c-row-val">mohansampath098@gmail.com</div></div></a>
+        <a href="tel:7904987242" class="c-row"><span class="c-row-ic">📞</span><div><div class="c-row-lbl">Phone</div><div class="c-row-val">+91 79049 87242</div></div></a>
+        <a href="https://linkedin.com/in/mohanakannan098" target="_blank" class="c-row"><span class="c-row-ic">💼</span><div><div class="c-row-lbl">LinkedIn</div><div class="c-row-val">linkedin.com/in/mohanakannan098</div></div></a>
+        <a href="https://github.com/mohansampath098-ai" target="_blank" class="c-row"><span class="c-row-ic">🐙</span><div><div class="c-row-lbl">GitHub</div><div class="c-row-val">github.com/mohansampath098-ai</div></div></a>
+        <div class="c-row"><span class="c-row-ic">📍</span><div><div class="c-row-lbl">Location</div><div class="c-row-val">Coimbatore, Tamil Nadu, India</div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Designed & Built by <span>MOHANAKANNAN S</span> &nbsp;·&nbsp; B.E. EEE &nbsp;·&nbsp; Karpagam Institute of Technology &nbsp;·&nbsp; <span>2025 to 2029</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
